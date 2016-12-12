@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>husky_laser_filters</name>
+  <version>0.0.1</version>
+  <description>Configurations for laser filters on the dual arm manipulation husky.</description>
+
+  <maintainer email="wolfgang.merkt@ed.ac.uk">Wolfgang Merkt</maintainer>
+
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <url type="website">https://github.com/ipab-slmc/husky_laser_filters</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>laser_filters</build_depend>
+  <run_depend>laser_filters</run_depend>
+
+  <export>
+  </export>
+</package>
