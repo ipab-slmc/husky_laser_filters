@@ -2,13 +2,13 @@ scan_filter_chain:
 - name: angular_bounds_1
   type: LaserScanAngularBoundsFilterInPlace
   params:
-    lower_angle: -2.3
-    upper_angle: -1.5708
+    lower_angle:  -2.3
+    upper_angle: -1.5 #-1.5708
 - name: angular_bounds_2
   type: LaserScanAngularBoundsFilterInPlace
   params:
-    lower_angle: 1.5708
-    upper_angle: 2.3
+    lower_angle:  1.5 # 1.5708
+    upper_angle:  2.3
 #- name: shadows
 #  type: ScanShadowsFilter
 #  params:
